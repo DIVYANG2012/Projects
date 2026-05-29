@@ -1,0 +1,55 @@
+{
+  "run_timestamp": "2026-05-29T15:30:08.079642",
+  "total_rows_raw": 51647,
+  "total_columns": 13,
+  "duplicates": 800,
+  "missing_values": {
+    "transaction_id": 0,
+    "transaction_date": 0,
+    "product_id": 0,
+    "product_name": 0,
+    "category": 0,
+    "region": 388,
+    "sales_rep_id": 0,
+    "customer_id": 0,
+    "customer_segment": 0,
+    "quantity": 0,
+    "unit_price": 643,
+    "discount_pct": 0,
+    "total_revenue": 643
+  },
+  "dtypes": {
+    "transaction_id": "str",
+    "transaction_date": "datetime64[us]",
+    "product_id": "str",
+    "product_name": "str",
+    "category": "str",
+    "region": "str",
+    "sales_rep_id": "str",
+    "customer_id": "str",
+    "customer_segment": "str",
+    "quantity": "int64",
+    "unit_price": "float64",
+    "discount_pct": "float64",
+    "total_revenue": "float64"
+  },
+  "duplicates_removed": 800,
+  "missing_imputed": {
+    "unit_price": 630,
+    "region": 386
+  },
+  "outliers_removed": 0,
+  "final_rows": 50847,
+  "validation": {
+    "no_duplicate_ids": true,
+    "no_missing_unit_price": true,
+    "no_missing_region": true,
+    "discount_in_range": true,
+    "quantity_positive": true,
+    "revenue_positive": true,
+    "date_in_2024": true,
+    "all_categories_valid": true
+  },
+  "total_revenue": 1031594127.53,
+  "date_range": "2024-01-01 to 2024-12-28"
+}
